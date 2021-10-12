@@ -1,5 +1,4 @@
 import UIKit
-import uUI
 
 protocol ___VARIABLE_productName___ViewLogic: AnyObject {
 
