@@ -4,7 +4,7 @@ protocol ___VARIABLE_productName___ViewLogic: AnyObject {
 
 }
 
-final class ___VARIABLE_productName___View: ___VARIABLE_productName___ViewLogic {
+final class ___VARIABLE_productName___View: UIView, ___VARIABLE_productName___ViewLogic {
 
     // MARK: - Private Properties
 
@@ -18,10 +18,12 @@ final class ___VARIABLE_productName___View: ___VARIABLE_productName___ViewLogic 
 
     // MARK: - Intialization
 
-    init(
+    override init(
         frame: CGRect = .zero
     ) {
         super.init(frame: frame)
+        addSubviews()
+        constrainSubviews()
         setup()
     }
 
@@ -36,11 +38,11 @@ final class ___VARIABLE_productName___View: ___VARIABLE_productName___ViewLogic 
         backgroundColor = .white
     }
 
-    override func addSubviews() {
+    func addSubviews() {
 
     }
 
-    override func constrainSubviews() {
+    func constrainSubviews() {
 
     }
 

@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-protocol ___VARIABLE_productName___Logic: AnyObject {
+protocol ___VARIABLE_productName___ViewControllerLogic: AnyObject {
    
 }
 
@@ -58,6 +58,6 @@ final class ___VARIABLE_productName___ViewController: UIViewController {
 
 // MARK: - ___VARIABLE_productName___Logic
 
-extension ___VARIABLE_productName___ViewController: ___VARIABLE_productName___Logic {
+extension ___VARIABLE_productName___ViewController: ___VARIABLE_productName___ViewControllerLogic {
 
 }

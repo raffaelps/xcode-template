@@ -13,7 +13,7 @@ final class ___VARIABLE_productName___Presenter: ___VARIABLE_productName___Prese
 
     // MARK: - Properties
 
-    weak var viewController: ___VARIABLE_productName___Logic?
+    weak var viewController: ___VARIABLE_productName___ViewControllerLogic?
     
     // MARK: - Initialization
     

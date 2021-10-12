@@ -7,9 +7,9 @@
 
 import Foundation
 
-protocol ___VARIABLE_productName___Logic: AnyObject {}
+protocol ___VARIABLE_productName___InteractorLogic: AnyObject {}
 
-final class ___VARIABLE_productName___Interactor: ___VARIABLE_productName___BusinessLogic {
+final class ___VARIABLE_productName___Interactor {
 
     // MARK: - Dependencies
     

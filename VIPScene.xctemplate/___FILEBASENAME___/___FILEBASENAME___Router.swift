@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 protocol ___VARIABLE_productName___RouterLogic {}
 
@@ -19,7 +20,7 @@ final class ___VARIABLE_productName___Router: NSObject, ___VARIABLE_productName_
 
     // MARK: - Initialization
     
-    init() {}
+    override init() {}
 
     // MARK: - Routing Methods
 
