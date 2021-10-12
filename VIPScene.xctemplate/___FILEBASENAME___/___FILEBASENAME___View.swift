@@ -23,7 +23,7 @@ final class ___VARIABLE_productName___View: UIView, ___VARIABLE_productName___Vi
     ) {
         super.init(frame: frame)
         addSubviews()
-        constrainSubviews()
+        constraintSubviews()
         setup()
     }
 
@@ -42,7 +42,7 @@ final class ___VARIABLE_productName___View: UIView, ___VARIABLE_productName___Vi
 
     }
 
-    func constrainSubviews() {
+    func constraintSubviews() {
 
     }
 
